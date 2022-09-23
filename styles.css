@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(assets/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -45px;
+    
+}
+
+.container{
+    background: rgba(0,0,0,0.7);
+}
+
+
+.p-1_box-1{
+    text-align: center;
+    font: 700 20px 'B612';
+    color: #FFFFFF;
+    padding-top: 45px;
+   
+}
+
+.p-2_box-1{
+    text-align: center;
+    font: 700 95px 'B612';
+    color: #FFFFFF;
+    padding-top: 32px;
+   
+}
+
+.container-box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 92px;
+    padding-bottom: 57px;
+    margin-right: 228px;
+}
+
+.box-2{
+    display: flex;
+    max-width: 700px;
+}
+
+.box-imagem{
+    margin-right: 73px;
+}
+
+.img-1_box-2{
+    border-radius: 20px;
+}
+
+.p-1_box-2{
+    
+    font: 400 18px 'B612';
+    color: #FFFFFF;
+    line-height: 32px;
+    width: 722px;
+    height: 96px;
+}
+
+.detalhes{
+    display: flex;
+    margin-top: 40px;
+}
+
+.imagem-relogio{
+    display: flex;
+}
+
+.icone-relogio{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+#minuto{
+    margin-left: 15px;
+    font: 700 19px 'B612';
+    color: #FFFFFF;
+}
+
+.stars{
+    margin-left: 90px;
+}
+
+.estrela{
+    width: 27px;
+}
+
+#ano{
+    font: 700 19px 'B612';
+    color: #FFFFFF;
+    margin-left: 90px;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 45px;
+}
+
+#botao-1{
+    width: 184px;
+    height: 52px;
+    background-color: #0072D2;
+    font: 700 16px 'B612';
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+}
+
+#botao-2{
+    width: 115px;
+    height: 52px;
+    margin-left: 20px;
+    background-color: #131318;
+    font: 700 16px 'B612';
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+}
